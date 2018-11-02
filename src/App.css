@@ -8,3 +8,33 @@
 .bold{
   font-weight: bold;
 }
+
+.App button {
+  border: 1px solid #009435;
+  padding:16px;
+  background-color: #009435;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#000;
+  outline:none;
+}
+
+.App button:hover{
+  border:1px solid #ff0000;
+  background-color: #ff0000;
+  outline:none !important;
+}
+
+.App button:focus{
+  outline:none;
+}
+
+
+.App button.Red{
+  background-color: #ccc;
+}
+
+.App button.Red:hover{
+  background-color: #000;
+  color:#fff;
+}
